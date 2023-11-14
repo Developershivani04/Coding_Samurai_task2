@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do-List</title>
+</head>
+
+<!-- <body onload="time()"> -->
+
+<body>
+    <div class="container">
+        <div class="to-do-div">
+            <div class="date-and-time-div">
+                <p id="date"></p>
+                <p id="hour"></p>
+            </div>
+            <div class="heading">
+
+                <span><img src="images-removebg-preview.png" width="100%" height="100%" alt=""></span>
+                <h2>To Do List</h2>
+            </div>
+            <div class="input-div">
+                <input type="text" id="input-box" placeholder="add your task">
+                <button onclick="addTask()">add</button>
+            </div>
+
+            <ul id="to-do-list-container">
+                <!-- <li class="checked"> <span><i class='bx bxs-check-circle'></i></span>task 1  </li>
+                <li>task 2</li>
+                <li>task 3</li>  -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
